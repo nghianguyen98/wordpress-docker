@@ -13,6 +13,7 @@ services:
     links:
       - db
     volumes:
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
       - ./wordpress:/var/www/html
 
   db:
