@@ -3,7 +3,7 @@ version: '3.1'
 services:
 
   wordpress:
-    image: wordpress:php7.4-fpm
+    image: wordpress:php8.2-fpm-alpine
     restart: always
     environment:
       WORDPRESS_DB_HOST: db
